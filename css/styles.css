@@ -865,3 +865,10 @@ body {
     left: 50%;
     top: 0;
 }
+
+.modal-icon-svg {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
