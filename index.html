@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WEBSTUDIO</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
-    <header class="header">
+  <!-- /* ----------HEADER------------ */ -->
+    <header class="header ">
         <div class="container header-contanier">
        <nav class="header-contanier">
          <a href="./index.html" class="logo">WEB<span class="logos">STUDIO</span></a>
@@ -20,22 +22,79 @@
             <li class="site-nav-contanier"> <a href="" class="link">Contacts</a></li>
          </ul>
          </nav>
+         <button type="button" class="mobile-menu-open" data-mobile-open>
+          <svg class="mobile-menu-open-svg" width="32" height="22">
+            <use class="mobile-menu-open-use" href="./images/icons.svg#icon-burger"></use>
+          </svg>
+         </button>
          <ul class="auth-nav header-contanier list">
-            <li class="auth-nav-contanier"> <a href="mailto:info@devstudio.com" class="address">info@devstudio.com</a></li>
-            <li> <a href="tel:+110001111111" class="address">+11 (000) 111-11-11</a></li>
+            <li class="auth-nav-mail"> <a href="mailto:info@devstudio.com" class="address">info@devstudio.com</a></li>
+            <li class="auth-nav-phone"> <a href="tel:+110001111111" class="address">+11 (000) 111-11-11</a></li>
          </ul>
+        </div>
+        <div class="mobile-menu" data-mobile>
+          <div class="container mobile-menu-container">
+          <button type="button" class="modile-menu-close" data-mobile-close>
+            <svg class="modile-menu-close-svg" width="8" height="8" >
+              <use class="modile-menu-close-use" href="./images/icons.svg#close-modal"></use>
+            </svg>
+          </button>
+          <ul class="menu-mobile list">
+            <li class="menu-mobile-list"> <a href="./index.html" class="link current">Studio</a></li>
+            <li class="menu-mobile-list"> <a href="./portfolio.html" class="link">Portfolio</a></li>
+            <li class="menu-mobile-list"> <a href="" class="link">Contacts</a></li>
+         </ul>
+         <div>
+         <ul class="contacts-mobile list">
+          <li class="contacts-mobile-list"> <a href="tel:+110001111111" class="address">+11 (000) 111-11-11</a></li>
+          <li class="contacts-mobile-list"> <a href="mailto:info@devstudio.com" class="address-mail">info@devstudio.com</a></li>
+       </ul>
+       <ul class="socials-mobile list">
+        <li> 
+          <a class="socials-mobile-link" href="">
+          <svg width="24" height="24">
+            <use class="socials-mobile-icon" href="./images/icons.svg#instagram"></use>
+          </svg>
+        </a>
+        </li>
+        <li> 
+          <a class="socials-mobile-link" href="">
+          <svg width="24" height="24">
+            <use class="socials-mobile-icon" href="./images/icons.svg#twitter"></use>
+          </svg>
+        </a>
+        </li>
+        <li> 
+          <a class="socials-mobile-link" href="">
+          <svg width="24" height="24">
+            <use class="socials-mobile-icon" href="./images/icons.svg#facebook"></use>
+          </svg>
+        </a>
+        </li>
+        <li> 
+          <a class="socials-mobile-link" href="">
+          <svg width="24" height="24">
+            <use class="socials-mobile-icon" href="./images/icons.svg#linkedin"></use>
+          </svg>
+        </a>
+        </li>
+      </ul>
+       </div>
+        </div>
         </div>
     </header>
     <main>
-         <section class="hero"> 
+      <!-- /* ----------HERO------------ */ -->
+        <section class="hero"> 
         <div class="container">
          <h1 class="hero-title">Effective Solutions for Your Business</h1>
          <button type="button" class="hero-button" data-modal-open>Order Service</button>
         </div>
         </section>
+        <!-- /* ----------SECTION------------ */ -->
         <section class="section">
         <div class="container">
-        <h2 class="section-title visually-hidden"> SPDT </h2>
+        <h2 class="visually-hidden"> SPDT </h2>
          <ul class="featyre-section list">
              <li class="featyre-text">
               <div class="section-title-icon">
@@ -43,7 +102,7 @@
                 <use class="featyre-icon-use" href="./images/icons.svg#antenna"></use>
               </svg>
             </div>
-                <h3 class="section-tatle-next featyre-text-title">Strategy</h3>
+                <h3 class="section-tatle-next">Strategy</h3>
                 <p class="featyre-text-title">Our goal is to identify the business
                     problem to walk away with the perfect and creative solution. </p>
             </li>
@@ -53,7 +112,7 @@
                 <use class="featyre-icon-use" href="./images/icons.svg#clock"></use>
               </svg>
               </div>
-                <h3 class="section-tatle-next featyre-text-title">Punctuality</h3>
+                <h3 class="section-tatle-next">Punctuality</h3>
                 <p class="featyre-text-title">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
             </li>
             <li class="featyre-text ">
@@ -62,7 +121,7 @@
                 <use class="featyre-icon-use" href="./images/icons.svg#diagram"></use>
               </svg>
             </div>
-                <h3 class="section-tatle-next featyre-text-title">Diligence</h3>
+                <h3 class="section-tatle-next">Diligence</h3>
                 <p class="featyre-text-title">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
             </li>
             <li class="featyre-text">
@@ -71,47 +130,66 @@
                 <use class="featyre-icon-use" href="./images/icons.svg#astronaut"></use>
               </svg>
             </div>
-                <h3 class="section-tatle-next featyre-text-title">Technologies</h3>
+                <h3 class="section-tatle-next">Technologies</h3>
                 <p class="featyre-text-title">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
             </li>
          </ul>
         </div>
       </section>
+      <!-- /* ----------SECTION-DIRECTION------------ */ -->
       <section class="section-direction">
         <div class="container">
           <h2 class="section-title" >What Are We Doing</h2>
           <ul class="featyre list">
             <li>
                <div class="section-title-list">
-                <a>
-                    <img  src="./images/rectangle.jpg" alt="computer" width="360">
-                </a>
+                    <img  
+                    srcset="./images/rectangle.jpg 1x, ./images/rectangle@2x.jpg 2x"
+                    src="./images/rectangle.jpg" 
+                    alt="computer"
+                    width="360">             
               </div>
             </li>
             <li>
                <div class="section-title-list">
-                <a>
-                    <img  src="./images/rectangle1.jpg" alt="phone" width="360">
-                </a>
+                    <img 
+                    srcset="./images/rectangle1.jpg 1x, ./images/rectangle1@2x.jpg 2x" 
+                    src="./images/rectangle1.jpg" 
+                    alt="phone" 
+                    width="360">
                </div>
             </li>
             <li>  
                <div class="section-title-list">          
-                <a>
-                    <img src="./images/rectangle2.jpg" alt="phone in hand" width="360">
-                </a>
+                    <img 
+                    srcset="./images/rectangle2.jpg 1x, ./images/rectangle2@2x.jpg 2x"
+                    src="./images/rectangle2.jpg" 
+                    alt="phone in hand" 
+                    width="360">
                </div>
             </li>
            </ul>
         </div>
       </section>
-      <section class="section-worker">
-        <div class="container">
-        <h2 class="section-title"> Our Team </h2>
-        <ul class="featyre list">
+      <!-- /* ----------SECTION-WORKER------------ */ -->
+      <!-- <section class="section-worker">
+        <div class="container container-worker">
+        <h2 class="section-worker-title"> Our Team </h2>
+        <ul class="featyre-worker list">
             <li>
-               <img class="featyre-img" src="./images/photo1.jpg" alt="Mark Guerrero" width="264">
-              <div class="section-worker-list">
+              <picture>
+                <source 
+                srcset="./images/photo1-dekstop.jpg 1x, ./images/photo1-dekstop@2x.jpg 2x"
+                media="(min-width: 1200px)" >
+                <source 
+                srcset="./images/photo1-tablet.jpg 1x, ./images/photo1-tablet@2x.jpg 2x" 
+                media="(min-width: 768px)">
+                <source 
+                srcset="./images/photo1-mobile.jpg 1x, ./images/photo1-mobile@2x.jpg 2x"
+                media="(max-width: 767px)">
+               <img class="featyre-img" src="./images/photo1-mobile.jpg" alt="Mark Guerrero" width="264">
+              </picture>
+               <div class="section-worker-list">
                <h3 class="section-tatle-next">Mark Guerrero</h3>
                <p class="featyre-lists">Product Designer</p>
                <ul class="featyre-worker-icon list">
@@ -147,7 +225,18 @@
               </div>
             </li>
             <li>
-                <img  class="featyre-img" src="./images/photo2.jpg" alt="Tom Ford" width="264">
+              <picture>
+                <source 
+                srcset="./images/photo2-dekstop.jpg 1x, ./images/photo2-dekstop@2x.jpg 2x"
+                media="(min-width: 1200px)" >
+                <source 
+                srcset="./images/photo2-tablet.jpg 1x, ./images/photo2-tablet@2x.jpg 2x" 
+                media="(min-width: 768px)">
+                <source 
+                srcset="./images/photo2-mobile.jpg 1x, ./images/photo2-mobile@2x.jpg 2x"
+                media="(max-width: 767px)">
+               <img class="featyre-img" src="./images/photo2-mobile.jpg" alt="Mark Guerrero" width="264">
+              </picture>
               <div class="section-worker-list">
                 <h3 class="section-tatle-next">Tom Ford</h3>
                 <p class="featyre-lists">Frontend Developer</p>
@@ -184,7 +273,18 @@
               </div>
             </li>
             <li>
-                <img class="featyre-img" src="./images/photo3.jpg" alt="Camila Garcia" width="264">
+              <picture>
+                <source 
+                srcset="./images/photo3-dekstop.jpg 1x, ./images/photo3-dekstop@2x.jpg 2x"
+                media="(min-width: 1200px)" >
+                <source 
+                srcset="./images/photo3-tablet.jpg 1x, ./images/photo3-tablet@2x.jpg 2x" 
+                media="(min-width: 768px)">
+                <source 
+                srcset="./images/photo3-mobile.jpg 1x, ./images/photo3-mobile@2x.jpg 2x"
+                media="(max-width: 767px)">
+               <img class="featyre-img" src="./images/photo3-mobile.jpg" alt="Mark Guerrero" width="264">
+              </picture>
               <div class="section-worker-list">
                 <h3 class="section-tatle-next">Camila Garcia</h3>
                <p class="featyre-lists">Marketing</p>
@@ -221,7 +321,18 @@
               </div>
             </li>
             <li>
-                <img class="featyre-img" src="./images/photo4.jpg" alt="Daniel Wilson" width="264">
+              <picture>
+                <source 
+                srcset="./images/photo4-dekstop.jpg 1x, ./images/photo4-dekstop@2x.jpg 2x"
+                media="(min-width: 1200px)" >
+                <source 
+                srcset="./images/photo4-tablet.jpg 1x, ./images/photo4-tablet@2x.jpg 2x" 
+                media="(min-width: 768px)">
+                <source 
+                srcset="./images/photo4-mobile.jpg 1x, ./images/photo4-mobile@2x.jpg 2x"
+                media="(max-width: 767px)">
+               <img class="featyre-img" src="./images/photo4-mobile.jpg" alt="Mark Guerrero" width="264">
+              </picture>
               <div class="section-worker-list"> 
                 <h3 class="section-tatle-next">Daniel Wilson</h3>
                <p class="featyre-lists">UI Designer</p>
@@ -259,8 +370,9 @@
             </li>
             </ul>
         </div>
-      </section>
-      <section class="section-gustomers">
+      </section> -->
+      <!-- /* ----------SECTION-GUSTOMERS------------ */ -->
+      <!-- <section class="section-gustomers">
         <div class="container">
           <h2 class="section-title">Customers</h2>
           <ul class="gustomers-list list">
@@ -308,9 +420,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- /* ----------FOOTER------------ */ -->
+    <!-- <footer class="footer">
         <div class="container">
           <div class="container-footer">
           <div class="footer-container">
@@ -374,17 +487,18 @@
       </div>
     </div>
       </div>
-    </footer>
-
-<div class="backdrop is-hidden" data-modal>
+    </footer> -->
+    <!-- /* ----------MODAL-WINDOM------------ */ -->
+ <!-- <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <p class="modal-title">Leave your contacts and we will call you back</p>
     <button type="button" class="modal-btn" data-modal-close>
     <svg class="modal-btn-svg" width="8" height="8" >
       <use class="modal-btn-use" href="./images/icons.svg#close-modal"></use>
     </svg>
-  </button>
-  <form class="modal-form">
+  </button> -->
+  <!-- /* ----------MODAL-FORM------------ */ -->
+  <!-- <form class="modal-form">
      <label class="modal-form-label">
       <span class="modal-form-text">Name</span>
       <span class="modal-form-wraper">
@@ -455,8 +569,8 @@
   </form>
   </div>
 </div>
-<script src="./js/modal.js"></script>
+<script src="./js/modal.js"></script> -->
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
-
-
+ 
