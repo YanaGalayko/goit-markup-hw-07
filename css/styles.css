@@ -159,13 +159,6 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-button:hover,
-.hero-button:focus {
-    background-color: var(--button-bcg-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-
  /* ----------SECTION------------ */
 
 .section {
@@ -284,12 +277,6 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.featyre-lists-icon:hover,
-.featyre-lists-icon:focus {
-    background-color: #404BBF;
-}
-
 .featyre-li-icon {
     fill: var(--button-bg-color);
 }
@@ -332,17 +319,6 @@ body {
 
 .gustomers-list-use {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.gustomers-list-next:hover,
-.gustomers-list-next:focus {
-    border: 1px solid #404BBF;
-    border-radius: 4px;
-}
-
-.gustomers-list-next:hover .gustomers-list-use,
-.gustomers-list-next:focus .gustomers-list-use  {
-    fill: #404BBF;
 }
 
  /* ----------SECTION-WORK------------ */
@@ -532,16 +508,6 @@ body {
     fill: #FFFFFF;
 }
 
-.footer-link:hover,
-.footer-link:focus {
-    background-color: #31D0AA;
-}
-
-.footer-use:hover,
-.footer-use:focus {
-    fill: #F4F4FD;
-}
-
 .footer-subscribe {
     font-weight: 500;
     font-size: 16px;
@@ -584,11 +550,6 @@ body {
     outline: transparent;
 } 
 
-.footer-input:focus {
-    border: 1px solid #4D5AE5;
-    border-radius: 4px;
-}
-
 .footer-buttom {
     display: flex;
     border: none;
@@ -601,12 +562,6 @@ body {
      color: #FFFFFF;
      padding: 8px 24px 8px 24px;
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-buttom:hover,
-.footer-buttom:focus {
-    background-color: #404BBF;
-    border-radius: 4px;
 }
 
 .footer-form-svg {
