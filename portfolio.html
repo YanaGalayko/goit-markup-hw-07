@@ -14,7 +14,7 @@
 </head>
 <body>
    <!-- /* ----------HEADER------------ */ -->
-  <header class="header">
+   <header class="header ">
     <div class="container header-contanier">
    <nav class="header-contanier">
      <a href="./index.html" class="logo">WEB<span class="logos">STUDIO</span></a>
@@ -24,14 +24,65 @@
         <li class="site-nav-contanier"> <a href="" class="link">Contacts</a></li>
      </ul>
      </nav>
+     <button type="button" class="mobile-menu-open" data-mobile-open>
+      <svg class="mobile-menu-open-svg" width="32" height="22">
+        <use class="mobile-menu-open-use" href="./images/icons.svg#icon-burger"></use>
+      </svg>
+     </button>
      <ul class="auth-nav header-contanier list">
-        <li class="auth-nav-contanier"> 
-          <a href="mailto:info@devstudio.com" class="address">info@devstudio.com</a>
-        </li>
-        <li>
-           <a href="tel:+110001111111" class="address">+11 (000) 111-11-11</a>
-          </li>
+        <li class="auth-nav-mail"> <a href="mailto:info@devstudio.com" class="address">info@devstudio.com</a></li>
+        <li class="auth-nav-phone"> <a href="tel:+110001111111" class="address">+11 (000) 111-11-11</a></li>
      </ul>
+    </div>
+    <div class="mobile-menu is-open" data-mobile>
+      <div class="container mobile-menu-container">
+      <button type="button" class="modile-menu-close" data-mobile-close>
+        <svg class="modile-menu-close-svg" width="8" height="8" >
+          <use class="modile-menu-close-use" href="./images/icons.svg#close-modal"></use>
+        </svg>
+      </button>
+      <ul class="menu-mobile list">
+        <li class="menu-mobile-list"> <a href="./index.html" class="link">Studio</a></li>
+        <li class="menu-mobile-list"> <a href="./portfolio.html" class="link current">Portfolio</a></li>
+        <li class="menu-mobile-list"> <a href="" class="link">Contacts</a></li>
+     </ul>
+     <div>
+     <ul class="contacts-mobile list">
+      <li class="contacts-mobile-list"> <a href="tel:+110001111111" class="address">+11 (000) 111-11-11</a></li>
+      <li class="contacts-mobile-list"> <a href="mailto:info@devstudio.com" class="address-mail">info@devstudio.com</a></li>
+   </ul>
+   <ul class="socials-mobile list">
+    <li> 
+      <a class="socials-mobile-link" href="">
+      <svg width="24" height="24">
+        <use class="socials-mobile-icon" href="./images/icons.svg#instagram"></use>
+      </svg>
+    </a>
+    </li>
+    <li> 
+      <a class="socials-mobile-link" href="">
+      <svg width="24" height="24">
+        <use class="socials-mobile-icon" href="./images/icons.svg#twitter"></use>
+      </svg>
+    </a>
+    </li>
+    <li> 
+      <a class="socials-mobile-link" href="">
+      <svg width="24" height="24">
+        <use class="socials-mobile-icon" href="./images/icons.svg#facebook"></use>
+      </svg>
+    </a>
+    </li>
+    <li> 
+      <a class="socials-mobile-link" href="">
+      <svg width="24" height="24">
+        <use class="socials-mobile-icon" href="./images/icons.svg#linkedin"></use>
+      </svg>
+    </a>
+    </li>
+  </ul>
+   </div>
+    </div>
     </div>
 </header>
     <main>
@@ -57,7 +108,7 @@
             </li>
         </ul>
          <!-- /* ----------SECTION-WORK------------ */ -->
-        <ul class="section-work list">
+        <!-- <ul class="section-work list">
             <li class="section-but">
                 <a class="cards" href="">
                   <div class="cards-overlay">
@@ -166,7 +217,7 @@
                </div>    
             </a>
             </li>
-          </ul>
+          </ul> -->
          </div>
        </section>
     </main>
@@ -178,7 +229,7 @@
        <a href="./index.html" class="logo-footer">WEB<span class="logos-footer">STUDIO</span></a>
        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
       </div>
-       <div class="footer-container">
+       <div class="social-container">
       <p class="footer-social">Social media</p>
       <ul class="footer-list list">
         <li class="footer-list-next">
@@ -211,11 +262,9 @@
         </li>
       </ul>
     </div>
-    <div class="footer-container">
-      <p class="footer-subscribe">Subscribe</p>
       <form class="footer-form">
-        <div class="footer-form-container">
         <label class="footer-label">
+        <span class="footer-subscribe">Subscribe</span>
         <input 
         type="email" 
         name="user_mail" 
@@ -230,11 +279,11 @@
         <use class="footer-form-use" href="./images/icons.svg#icon-footer"></use>
       </svg>
     </button>
-     </div>
      </form>
     </div>
   </div>
     </div>
   </footer>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 </html>

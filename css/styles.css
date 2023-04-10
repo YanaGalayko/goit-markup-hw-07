@@ -389,22 +389,23 @@ body {
 
  /* ----------SECTION-MENU------------ */
 
-.section-list {
-    padding-top: 96px;
-    padding-bottom: 120px;
+ .section-list {
+    padding-top: 48px;
+    padding-bottom: 48px;
  }
 
 .button-lists {
     display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    margin-bottom:48px;
 }
 
 .button-menu {
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    padding: 12px 24px;
+    padding: 8px 16px;
     color: var(--logo-color);
     background-color: var(--button-bg-color);
     font-family: 'Roboto', sans-serif;
