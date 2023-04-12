@@ -162,6 +162,31 @@
     .footer-list {
         margin-right: 80px; 
     }
+
+    /* -------------------------PORTFOLIO-----------------------------  */
+
+     /* ----------SECTION-MENU------------ */
+
+    .section-list {
+        padding-top: 100px;
+        padding-bottom: 120px;
+     }
+
+    .button-lists {
+        margin-bottom: 72px;
+    }
+
+     /* ----------SECTION-WORK------------ */
+     
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+     .section-work {
+        justify-content: center;
+     }
+
 }
 
 @media screen and (min-width: 1200px) {

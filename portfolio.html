@@ -90,7 +90,7 @@
          <div class="container">
         <h1 class="visually-hidden">Portfolio</h1>
         <ul class="button-lists list">
-            <li>
+            <li class="div">
                 <button type="button" class="button-menu">All</button>
             </li>
             <li>
@@ -107,116 +107,215 @@
             </li>
         </ul>
          <!-- /* ----------SECTION-WORK------------ */ -->
-        <!-- <ul class="section-work list">
+        <ul class="section-work list">
             <li class="section-but">
                 <a class="cards" href="">
                   <div class="cards-overlay">
-                    <img class="cards-img" src="./images/img1.jpg" alt="photo interface" width="360"  >
+                    <picture>
+                      <source
+                      srcset="./images/img-dekstop1.jpg 1x, ./images/img-dekstop1@2x.jpg 2x,"
+                      media="(min-width: 1200px)">
+                      <source
+                      srcset="./images/img-tablet1.jpg 1x, ./images/img-tablet1@2x.jpg 2x,"
+                      media="(min-width: 768px)">
+                      <source
+                      srcset="./images/img-mobile1.jpg 1x, ./images/img-mobile1@2x.jpg 2x,"
+                      media="(max-width: 767px)">
+                      <img class="cards-img" src="./images/img-mobile1.jpg" alt="photo interface">
+                    </picture>
                     <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                   </div>
              <div class="section-cards">
-                <h2 class="section-tatle-next cards-text">Banking App Interface Concept</h2>
-                <p class="featyre-lists cards-text">App</p>
+                <h2 class="section-cards-title cards-text">Banking App Interface Concept</h2>
+                <p class="section-cards-text cards-text">App</p>
              </div>   
             </a>
             </li>
             <li class="section-but">
                 <a class="cards" href="">
                   <div class="cards-overlay">
-                  <img class="cards-img" src="./images/img2.jpg" alt="photo phone" width="360"  >
+                    <picture>
+                     <source 
+                     srcset="./images/img-dekstop2.jpg 1x, ./images/img-dekstop2@2x.jpg 2x"
+                     media="(min-width: 1200px)">
+                     <source
+                     srcset="./images/img-tablet2.jpg 1x, ./images/img-tablet2@2x.jpg 2x"
+                     media="(min-width: 768px)">
+                     <source 
+                     srcset="./images/img-mobile2.jpg 1x, ./images/img-mobile2@2x.jpg 2x"
+                     media="(max-width: 767px)">
+                      <img class="cards-img" src="./images/img-mobile2.jpg" alt="photo interface">
+                    </picture>
                   <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div> 
                   <div class="section-cards">
-                <h2 class="section-tatle-next cards-text">Cashless Payment</h2>
-                <p class="featyre-lists cards-text">Marketing</p>
+                <h2 class="section-cards-title cards-text">Cashless Payment</h2>
+                <p class="section-cards-text cards-text">Marketing</p>
              </div>    
             </a>
             </li>
              <li class="section-but">
                 <a href="" class="cards">
                   <div class="cards-overlay">
-                  <img class="cards-img" src="./images/img3.jpg" alt="laptop" width="360">
+                    <picture>
+                      <source 
+                      srcset="./images/img-dekstop3.jpg 1x, ./images/img-dekstop3@2x.jpg 2x"
+                      media="(min-width: 1200px)">
+                      <source
+                      srcset="./images/img-tablet3.jpg 1x, ./images/img-tablet3@2x.jpg 2x"
+                      media="(min-width: 768px)">
+                      <source 
+                      srcset="./images/img-mobile3.jpg 1x, ./images/img-mobile3@2x.jpg 2x"
+                      media="(max-width: 767px)">
+                       <img class="cards-img" src="./images/img-mobile3.jpg" alt="photo interface">
+                     </picture>
                   <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                   <div class="section-cards">
-                 <h2 class="section-tatle-next cards-text">Meditaion App</h2>
-                <p class="featyre-lists cards-text">App</p>
+                 <h2 class="section-cards-title cards-text">Meditaion App</h2>
+                <p class="section-cards-text cards-text">App</p>
               </div>   
             </a>
             </li>
              <li class="section-but">
                 <a href="" class="cards">
                   <div class="cards-overlay">
-                 <img class="cards-img" src="./images/img4.jpg" alt="avto" width="360">
+                    <picture>
+                      <source 
+                      srcset="./images/img-dekstop4.jpg 1x, ./images/img-dekstop4@2x.jpg 2x"
+                      media="(min-width: 1200px)">
+                      <source
+                      srcset="./images/img-tablet4.jpg 1x, ./images/img-tablet4@2x.jpg 2x"
+                      media="(min-width: 768px)">
+                      <source 
+                      srcset="./images/img-mobile4.jpg 1x, ./images/img-mobile4@2x.jpg 2x"
+                      media="(max-width: 767px)">
+                       <img class="cards-img" src="./images/img-mobile4.jpg" alt="photo interface">
+                     </picture>
                  <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                  <div class="section-cards">
-                 <h2 class="section-tatle-next cards-text">Taxi Service</h2>
-                <p class="featyre-lists cards-text">Marketing</p>
+                 <h2 class="section-cards-title cards-text">Taxi Service</h2>
+                <p class="section-cards-text cards-text">Marketing</p>
             </div>   
             </a>
             </li>
              <li class="section-but">
                 <a href="" class="cards">
                   <div class="cards-overlay">
-                  <img class="cards-img" src="./images/img5.jpg" alt="phone background" width="360">
+                    <picture>
+                      <source 
+                      srcset="./images/img-dekstop5.jpg 1x, ./images/img-dekstop5@2x.jpg 2x"
+                      media="(min-width: 1200px)">
+                      <source
+                      srcset="./images/img-tablet5.jpg 1x, ./images/img-tablet5@2x.jpg 2x"
+                      media="(min-width: 768px)">
+                      <source 
+                      srcset="./images/img-mobile5.jpg 1x, ./images/img-mobile5@2x.jpg 2x"
+                      media="(max-width: 767px)">
+                       <img class="cards-img" src="./images/img-mobile5.jpg" alt="photo interface">
+                     </picture>
                   <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                   <div class="section-cards">
-                 <h2 class="section-tatle-next cards-text">Screen Illustrations</h2>
-                <p class="featyre-lists cards-text">Design</p>
+                 <h2 class="section-cards-title cards-text">Screen Illustrations</h2>
+                <p class="section-cards-text cards-text">Design</p>
                </div>    
             </a>
             </li>
              <li class="section-but">
                 <a href="" class="cards">
                   <div class="cards-overlay">
-                  <img class="cards-img" src="./images/img6.jpg" alt="girl smiles" width="360">
+                    <picture>
+                      <source 
+                      srcset="./images/img-dekstop6.jpg 1x, ./images/img-dekstop6@2x.jpg 2x"
+                      media="(min-width: 1200px)">
+                      <source
+                      srcset="./images/img-tablet6.jpg 1x, ./images/img-tablet6@2x.jpg 2x"
+                      media="(min-width: 768px)">
+                      <source 
+                      srcset="./images/img-mobile6.jpg 1x, ./images/img-mobile6@2x.jpg 2x"
+                      media="(max-width: 767px)">
+                       <img class="cards-img" src="./images/img-mobile6.jpg" alt="photo interface">
+                     </picture>
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
                 <div class="section-cards">
-                <h2 class="section-tatle-next cards-text">Online Courses</h2>
-                <p class="featyre-lists cards-text">Marketing</p>
+                <h2 class="section-cards-title cards-text">Online Courses</h2>
+                <p class="section-cards-text cards-text">Marketing</p>
                </div>    
             </a>
             </li>
              <li class="section-but">
                 <a href="" class="cards">
                   <div class="cards-overlay">
-                  <img class="cards-img" src="./images/img7.jpg" alt="instagram" width="360">
+                    <picture>
+                      <source 
+                      srcset="./images/img-dekstop7.jpg 1x, ./images/img-dekstop7@2x.jpg 2x"
+                      media="(min-width: 1200px)">
+                      <source
+                      srcset="./images/img-tablet7.jpg 1x, ./images/img-tablet7@2x.jpg 2x"
+                      media="(min-width: 768px)">
+                      <source 
+                      srcset="./images/img-mobile7.jpg 1x, ./images/img-mobile7@2x.jpg 2x"
+                      media="(max-width: 767px)">
+                       <img class="cards-img" src="./images/img-mobile7.jpg" alt="photo interface">
+                     </picture>
                   <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                   <div class="section-cards">
-                <h2 class="section-tatle-next cards-text">Instagram Stories Concept</h2>
-                <p class="featyre-lists cards-text">Design</p>
+                <h2 class="section-cards-title cards-text">Instagram Stories Concept</h2>
+                <p class="section-cards-text cards-text">Design</p>
               </div>    
             </a>
             </li>
              <li class="section-but">
                 <a href="" class="cards">
                   <div class="cards-overlay">
-                  <img class="cards-img" src="./images/img8.jpg" alt="bag of fruit" width="360">
+                    <picture>
+                      <source 
+                      srcset="./images/img-dekstop8.jpg 1x, ./images/img-dekstop8@2x.jpg 2x"
+                      media="(min-width: 1200px)">
+                      <source
+                      srcset="./images/img-tablet8.jpg 1x, ./images/img-tablet8@2x.jpg 2x"
+                      media="(min-width: 768px)">
+                      <source 
+                      srcset="./images/img-mobile8.jpg 1x, ./images/img-mobile8@2x.jpg 2x"
+                      media="(max-width: 767px)">
+                       <img class="cards-img" src="./images/img-mobile8.jpg" alt="photo interface">
+                     </picture>
                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
                 <div class="section-cards">  
-                <h2 class="section-tatle-next cards-text">Organic Food</h2>
-                <p class="featyre-lists cards-text">Web Site</p>
+                <h2 class="section-cards-title cards-text">Organic Food</h2>
+                <p class="section-cards-text cards-text">Web Site</p>
             </div>  
             </a>
             </li>
              <li class="section-but">
                 <a href="" class="cards">
                   <div class="cards-overlay">
-                  <img class="cards-img" src="./images/img9.jpg" alt="making coffee" width="360">
+                    <picture>
+                      <source 
+                      srcset="./images/img-dekstop9.jpg 1x, ./images/img-dekstop9@2x.jpg 2x"
+                      media="(min-width: 1200px)">
+                      <source
+                      srcset="./images/img-tablet9.jpg 1x, ./images/img-tablet9@2x.jpg 2x"
+                      media="(min-width: 768px)">
+                      <source 
+                      srcset="./images/img-mobile9.jpg 1x, ./images/img-mobile9@2x.jpg 2x"
+                      media="(max-width: 767px)">
+                       <img class="cards-img" src="./images/img-mobile9.jpg" alt="photo interface">
+                     </picture>
                   <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                   <div class="section-cards">
-                 <h2 class="section-tatle-next cards-text">Fresh Coffee</h2>
-                <p class="featyre-lists cards-text">Web Site</p>
+                 <h2 class="section-cards-title cards-text">Fresh Coffee</h2>
+                <p class="section-cards-text cards-text">Web Site</p>
                </div>    
             </a>
             </li>
-          </ul> -->
+          </ul>
          </div>
        </section>
     </main>
